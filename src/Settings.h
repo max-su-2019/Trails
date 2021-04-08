@@ -33,8 +33,8 @@ public:
 
 		struct RayCast
 		{
-			Settings::PlayImpactEffect::Position origin{ "", { { 0.0F, 0.0F, 1.0F }, 16.0F } };
-			Settings::PlayImpactEffect::Vector	 ray{ { 0.0F, 0.0F, -1.0F }, 32.0F };
+			Settings::PlayImpactEffect::Position origin{ "", { { 0.0F, 0.0F, 1.0F }, 32.0F } };
+			Settings::PlayImpactEffect::Vector	 ray{ { 0.0F, 0.0F, -1.0F }, 64.0F };
 			Settings::PlayImpactEffect::Rotation rotation{ "", false, false, false };
 		};
 

@@ -132,7 +132,7 @@ bool BGSImpactManager::PlayImpactEffect(RE::TESObjectREFR* a_subject, const Sett
 			std::uint32_t				  materialID = 0U;
 			RE::NiPointer<RE::NiAVObject> target3D = nullptr;
 
-			auto terrain = (rootCollidable->broadPhaseHandle.collisionFilterInfo & RE::hkpCollidable::CollisionFilterInfo::kBelongsToMask) == RE::hkpCollidable::BelongsTo::kTerrain;
+			auto terrain = (rootCollidable->broadPhaseHandle.collisionFilterInfo & RE::hkpCollidable::CollisionFilterInfo::kBelongsTo) == RE::hkpCollidable::BelongsTo::kTerrain;
 
 			if (terrain)
 			{

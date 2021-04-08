@@ -378,11 +378,11 @@
 		"playImpactEffects":
 		[{
 			"impactEffect": { "formID": "0xD7F", "fileName": "Trails.esp" }, /* TRAILS_IPDS_Mammoth_BackLeft */
-			"rayCast": { "origin": { "nodeName": "Mammoth Back L Foot" } } /* Left */
+			"rayCast": { "origin": { "nodeName": "Mammoth Back L Foot" }, "ray": { "length": 72.0 } } /* Left */
 		},
 		{
 			"impactEffect": { "formID": "0xD80", "fileName": "Trails.esp" }, /* TRAILS_IPDS_Mammoth_BackRight */
-			"rayCast": { "origin": { "nodeName": "Mammoth Back R Foot" } } /* Right */
+			"rayCast": { "origin": { "nodeName": "Mammoth Back R Foot" }, "ray": { "length": 72.0 } } /* Right */
 		}]
 	},
 	{
@@ -390,11 +390,11 @@
 		"playImpactEffects":
 		[{
 			"impactEffect": { "formID": "0xD7F", "fileName": "Trails.esp" }, /* TRAILS_IPDS_Mammoth_BackLeft */
-			"rayCast": { "origin": { "nodeName": "Mammoth Front L Foot" } } /* Left */
+			"rayCast": { "origin": { "nodeName": "Mammoth Front L Foot" }, "ray": { "length": 96.0 } } /* Left */
 		},
 		{
 			"impactEffect": { "formID": "0xD80", "fileName": "Trails.esp" }, /* TRAILS_IPDS_Mammoth_BackRight */
-			"rayCast": { "origin": { "nodeName": "Mammoth Front R Foot" } } /* Right */
+			"rayCast": { "origin": { "nodeName": "Mammoth Front R Foot" }, "ray": { "length": 96.0 } } /* Right */
 		}]
 	}]
 },
@@ -442,7 +442,7 @@
 		"playImpactEffects":
 		[{
 			"impactEffect": { "formID": "0xD81", "fileName": "Trails.esp" }, /* TRAILS_IPDS_Nord_Left */
-			"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "magnitude": 160.0 } }
+			"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "length": 160.0 } }
 		}]
 	},
 	{
@@ -450,7 +450,7 @@
 		"playImpactEffects":
 		[{
 			"impactEffect": { "formID": "0xD82", "fileName": "Trails.esp" }, /* TRAILS_IPDS_Nord_Right */
-			"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "magnitude": 160.0 } }
+			"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "length": 160.0 } }
 		}]
 	},
 	{
@@ -458,11 +458,11 @@
 		"playImpactEffects":
 		[{
 			"impactEffect": { "formID": "0xD81", "fileName": "Trails.esp" }, /* TRAILS_IPDS_Nord_Left */
-			"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "magnitude": 160.0 } } /* Left */
+			"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "length": 160.0 } } /* Left */
 		},
 		{
 			"impactEffect": { "formID": "0xD82", "fileName": "Trails.esp" }, /* TRAILS_IPDS_Nord_Right */
-			"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "magnitude": 160.0 } } /* Right */
+			"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "length": 160.0 } } /* Right */
 		}]
 	}]
 },
